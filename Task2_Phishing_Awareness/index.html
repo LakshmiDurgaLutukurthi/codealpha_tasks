@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Phishing Awareness Training</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header><div class="wrap">
+<p>CodeAlpha Cyber Security Internship • Task 2</p>
+<h1>Phishing Awareness Training</h1>
+<p>Learn how to recognize phishing emails, fake websites, and social engineering attempts.</p>
+<a href="#quiz" class="btn">Take the Quiz</a>
+</div></header>
+<main class="wrap">
+
+<section><h2>1. What is Phishing?</h2>
+<p>Phishing is a social engineering attack where an attacker pretends to be a trusted person or organization to trick a victim into revealing information, opening an attachment, transferring money, or visiting a fake website.</p>
+<div class="alert">Never enter passwords, OTPs, card details, or other sensitive information just because a message creates urgency or fear.</div>
+</section>
+
+<section><h2>2. Recognizing Phishing Emails</h2>
+<ul>
+<li><b>Unexpected urgency:</b> “Act now” or “Your account will be closed.”</li>
+<li><b>Suspicious sender:</b> The display name may look familiar but the actual address can be different.</li>
+<li><b>Unusual links:</b> Visible link text can hide a different destination.</li>
+<li><b>Requests for secrets:</b> Be suspicious of requests for passwords or OTPs.</li>
+<li><b>Unexpected attachments:</b> Treat unfamiliar files with caution.</li>
+<li><b>Unusual wording:</b> Spelling, grammar, or formatting may be inconsistent.</li>
+</ul>
+</section>
+
+<section><h2>3. Spotting Fake Websites</h2>
+<div class="grid">
+<article><h3>Check the domain</h3><p>Look carefully at the actual domain name, not only the logo or page design.</p></article>
+<article><h3>HTTPS is not enough</h3><p>HTTPS encrypts traffic, but a padlock alone does not prove that a site is legitimate.</p></article>
+<article><h3>Avoid pressure links</h3><p>Open the official app or type a known website address yourself when possible.</p></article>
+<article><h3>Check requests</h3><p>Be cautious if a site suddenly asks for sensitive information it normally does not need.</p></article>
+</div>
+</section>
+
+<section><h2>4. Social Engineering Tactics</h2>
+<table>
+<tr><th>Tactic</th><th>How it works</th><th>Defense</th></tr>
+<tr><td>Urgency</td><td>Pressures you to act quickly.</td><td>Pause and verify.</td></tr>
+<tr><td>Authority</td><td>Pretends to be a manager, bank, IT team, or official.</td><td>Verify using a trusted contact method.</td></tr>
+<tr><td>Fear</td><td>Claims an account or payment is in danger.</td><td>Use the official channel instead of the message link.</td></tr>
+<tr><td>Reward</td><td>Promises prizes, refunds, jobs, or offers.</td><td>Question unexpected rewards.</td></tr>
+<tr><td>Impersonation</td><td>Copies names, branding, or writing style.</td><td>Check the actual sender and domain.</td></tr>
+</table>
+</section>
+
+<section><h2>5. Real-World-Style Examples</h2>
+<div class="example"><h3>Fake account alert</h3><p>“Your account will be suspended today. Verify immediately using the link below.”</p><b>Red flags:</b> urgency, threat, login link.<br><b>Safe action:</b> Open the official website/app directly.</div>
+<div class="example"><h3>Fake delivery message</h3><p>“Delivery failed. Pay a small fee now to reschedule.”</p><b>Red flags:</b> unexpected payment, short deadline, unfamiliar link.<br><b>Safe action:</b> Check the order in the official app/site.</div>
+<div class="example"><h3>Fake job message</h3><p>“Congratulations! Pay a registration fee to confirm your job today.”</p><b>Red flags:</b> payment request and pressure.<br><b>Safe action:</b> Verify the company independently and do not pay simply to secure a job.</div>
+</section>
+
+<section><h2>6. Best Practices</h2>
+<ol>
+<li>Stop and think before clicking.</li>
+<li>Verify unexpected requests through a separate trusted channel.</li>
+<li>Check sender addresses and actual link destinations.</li>
+<li>Use multi-factor authentication where available.</li>
+<li>Keep your operating system, browser, and security software updated.</li>
+<li>Report suspicious messages using your organization's approved process.</li>
+<li>If you entered credentials on a suspicious site, change the password through the legitimate site and contact the appropriate support/security team.</li>
+</ol>
+</section>
+
+<section id="quiz"><h2>7. Interactive Phishing Quiz</h2>
+<p>Select the best answer for each question.</p>
+<div class="q"><b>1.</b> An email says your account will close in 10 minutes unless you click a link.<label><input type="radio" name="q1" value="a"> Click immediately</label><label><input type="radio" name="q1" value="b"> Pause and verify through the official website/app</label><label><input type="radio" name="q1" value="c"> Forward it to friends</label></div>
+<div class="q"><b>2.</b> Which is a strong phishing warning sign?<label><input type="radio" name="q2" value="a"> An expected verified message</label><label><input type="radio" name="q2" value="b"> A normal notification</label><label><input type="radio" name="q2" value="c"> An unexpected request for an OTP</label></div>
+<div class="q"><b>3.</b> Does HTTPS alone prove a website is legitimate?<label><input type="radio" name="q3" value="a"> Yes</label><label><input type="radio" name="q3" value="b"> No; verify the domain and context</label><label><input type="radio" name="q3" value="c"> Only if it has a logo</label></div>
+<div class="q"><b>4.</b> A recruiter asks you to pay a fee to guarantee a job. What is safest?<label><input type="radio" name="q4" value="a"> Pay immediately</label><label><input type="radio" name="q4" value="b"> Send an OTP</label><label><input type="radio" name="q4" value="c"> Verify independently and do not pay simply to secure the job</label></div>
+<div class="q"><b>5.</b> How should you verify an unexpected financial request?<label><input type="radio" name="q5" value="a"> Reply to the same message</label><label><input type="radio" name="q5" value="b"> Use a trusted phone number, official app, or known website</label><label><input type="radio" name="q5" value="c"> Click the first link</label></div>
+<button class="btn" onclick="checkQuiz()">Submit Quiz</button>
+<div id="result"></div>
+</section>
+
+<section><h2>8. Key Takeaway</h2><p><b>STOP → CHECK → VERIFY → REPORT.</b> Taking a few seconds to verify a message can prevent a major security problem.</p></section>
+</main>
+<footer>CodeAlpha Cyber Security Internship • Task 2 — Phishing Awareness Training</footer>
+<script src="script.js"></script>
+</body></html>

@@ -1,0 +1,11 @@
+Sample Quiz Output
+
+All correct answers:
+1. B
+2. C
+3. B
+4. C
+5. B
+
+Result:
+Your score: 5/5. Excellent! You have a strong understanding of phishing awareness.
