@@ -1,0 +1,7 @@
+CodeAlpha Basic Network Sniffer — DEMO
+
+DEMO MODE — no live network capture is performed.
+
+[001] TCP   192.168.1.10:51544  -> 142.250.183.14:443   len=128   payload=....
+[002] UDP   192.168.1.10:5353   -> 224.0.0.251:5353   len=92    payload=....mDNS....
+[003] ICMP  192.168.1.10        -> 8.8.8.8             len=84    payload=-
